@@ -12,6 +12,12 @@
   --home-button-image: url('https://media.discordapp.net/attachments/1210263868123910156/1210700520973533285/e5b7c2a9d92704075a23ad9ef26b1bdd.gif?ex=65eb83b9&is=65d90eb9&hm=7eb08070e170b8cfb4039fa2ddb128f0d593393ca5cc97ed5f40d9fca04c26cc&=&width=325&height=325');
   --home-button-size: cover;
   --home-button-position: center;
+  --settingsicons: 1;
+  --backdropsize: var(--background-size);
+  --backdropblur: 0px;
+  --version1_0_5: none;
+  --HSL-server-icon-size: 45px;
+  --HSL-server-spacing: 20px;
 }
 
 /* FONTS */
