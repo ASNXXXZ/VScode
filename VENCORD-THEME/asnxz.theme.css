@@ -5,39 +5,44 @@
  * @version 1.0
  */
 
- @import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
 
- .theme-dark /* Turns the user panel bleu */
- .container_ca50b9 {
+:root {
+  opacity: 0.5;
+}
+
+
+.theme-dark /* Turns the user panel bleu */
+.container_ca50b9 {
   background: #5f8ba2
- }
+}
 
- .theme-light /* Turns the user panel bleu */
- .container_ca50b9 {
+.theme-light /* Turns the user panel bleu */
+.container_ca50b9 {
   padding-left: 20px;
   background: #5f8aa269
- }
+}
 
- .svg_f5b652 { /* avatar on the user panel */
+.svg_f5b652 { /* avatar on the user panel */
   align-content:center;
   width: 16px;
   height: 16px;
- }
+}
 
- .text-sm-normal_e612c7.title__10613 { /* font of username */
+.text-sm-normal_e612c7.title__10613 { /* font of username */
   font-family: "Kode Mono", monospace;
- }
+}
 
- .wrapper_edb6e0 { /* moved all the stuff from user panel */
+.wrapper_edb6e0 { /* moved all the stuff from user panel */
   object-position: 50px;
- }
+}
 
-
- .theme-light
- .guilds__2b93a { /* server panel */
+.theme-light
+.guilds__2b93a { /* server panel */
   background: #5f8aa2a6
 }
 
+.theme-light
 .scrollerContent_c73942 { /* main chat */
-  background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tiktok.com%2F%40el_tvman2006%2Fvideo%2F7273379192241196293&psig=AOvVaw08i4LvRyhAMdFe766GyP7R&ust=1708721955068000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKDG5rjrv4QDFQAAAAAdAAAAABBF");
+  background-image: ('https://i.pinimg.com/originals/be/31/9e/be319eedbb46e7491b3d81459bdcb4cc.jpg');
 }
