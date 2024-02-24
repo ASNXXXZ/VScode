@@ -5,44 +5,55 @@
  * @version 1.0
  */
 
-@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
 
-:root {
-  opacity: 0.5;
+ :root {
+  --home-button-image: url('https://media.discordapp.net/attachments/1210263868123910156/1210700520973533285/e5b7c2a9d92704075a23ad9ef26b1bdd.gif?ex=65eb83b9&is=65d90eb9&hm=7eb08070e170b8cfb4039fa2ddb128f0d593393ca5cc97ed5f40d9fca04c26cc&=&width=325&height=325');
+  --home-button-size: cover;
+  --home-button-position: center;
 }
 
-
-.theme-dark /* Turns the user panel bleu */
-.container_ca50b9 {
-  background: #5f8ba2
+/* FONTS */
+* {
+  font-family: "Kode Mono", monospace
+}
+.text-sm-normal_e612c7.title__10613 {
+  font-weight: bold;
+  font-family: "Kode Mono", monospace
 }
 
-.theme-light /* Turns the user panel bleu */
+/* HOME BUTTON */
+#app-mount .guilds__2b93a .tutorialContainer__890ea .listItem_fa7b36:first-child .wrapper_d281dd::before { /* przycisk uwu */
+  content: "";
+  position: absolute;
+  background: var(--home-button-image, url("https://gibbu.github.io/BetterDiscord-Themes/FrostedGlass/assets/discord.svg"));
+  background-size: var(--home-button-size, cover);
+  background-position: var(--home-button-position, center);
+  background-repeat: var(--home-button-repeat, no-repeat);
+  height: 100%;
+  width: 100%;
+  transition: 0.2s ease;
+}
+.childWrapper__01b9c {
+  background-color: transparent;
+}
+.wrapper_d281dd,
+.wrapper_d281dd.selected_f5ec8e {
+  background-color: transparent;
+}
+
+/* Turns the user panel bleu */
 .container_ca50b9 {
   padding-left: 20px;
   background: #5f8aa269
 }
-
-.svg_f5b652 { /* avatar on the user panel */
-  align-content:center;
-  width: 16px;
-  height: 16px;
-}
-
-.text-sm-normal_e612c7.title__10613 { /* font of username */
-  font-family: "Kode Mono", monospace;
-}
-
-.wrapper_edb6e0 { /* moved all the stuff from user panel */
+ 
+/* moved all the stuff from user panel */
+.wrapper_edb6e0 {
   object-position: 50px;
 }
-
-.theme-light
-.guilds__2b93a { /* server panel */
-  background: #5f8aa2a6
-}
-
-.theme-light
-.scrollerContent_c73942 { /* main chat */
-  background-image: ('https://i.pinimg.com/originals/be/31/9e/be319eedbb46e7491b3d81459bdcb4cc.jpg');
+ 
+/* server panel */
+.guilds__2b93a {
+ background: #5f8aa2a6
 }
