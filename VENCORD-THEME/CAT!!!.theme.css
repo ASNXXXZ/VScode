@@ -1,0 +1,270 @@
+/**
+ * @name CAT!!!
+ * @author ASNXXXZ.
+ * @description CAT!!! THEME FOR BETTER DISCORD/VENCORD.
+ * @version 1.0
+ */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+@import url('https://raw.githubusercontent.com/ASNXXXZ/VScode/main/VENCORD-THEME/horsizontal-serverlist.css');
+
+
+/* FONT AND TRANSPARENT DISCORD ELEMENTS*/
+#app-mount * {
+    font-family: "Kode Mono", monospace;
+    background-color: rgba(0, 0, 0, 0)
+}
+
+
+/* HOME BUTTON IMAGE */
+:root {
+    --home-button-image: url('https://media.discordapp.net/attachments/1210263868123910156/1210700520973533285/e5b7c2a9d92704075a23ad9ef26b1bdd.gif?ex=65eb83b9&is=65d90eb9&hm=7eb08070e170b8cfb4039fa2ddb128f0d593393ca5cc97ed5f40d9fca04c26cc&=&width=325&height=325')
+}
+#app-mount .guilds__2b93a .tutorialContainer__890ea .listItem_fa7b36:first-child .wrapper_d281dd::before {
+    content: "";
+    position: absolute;
+    background: var(--home-button-image, url("https://gibbu.github.io/BetterDiscord-Themes/FrostedGlass/assets/discord.svg"));
+    background-size: var(--home-button-size, cover);
+    background-position: var(--home-button-position, center);
+    background-repeat: var(--home-button-repeat, no-repeat);
+    height: 100%;
+    width: 100%;
+    transition: 0.2s ease;
+}
+
+/* BACKGROUND OF DISCORD */
+:root {
+    --background-image: url('https://i.pinimg.com/originals/59/b8/c8/59b8c8622c076c5dc7bac0dd591c712c.gif');
+    --background-image-blur: 3px;
+    --background-image-size: cover;
+    --background-image-position: center;
+}
+#app-mount .bg__12180 {
+    top: -22px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: var(--background-image);
+    background-position: var(--background-image-position, center);
+    background-size: var(--background-image-size, cover);
+
+}
+
+/* TRANSPARIENCIES */
+:root {
+    --serverlist-brightness: 0.65;
+    --left-brightness: 0.55;
+    --middle-brightness: 0.5;
+    --right-brightness: 0;
+    --overlay-brightness: 0.75;
+}
+
+
+/* GRADIENTS */
+:root {
+    --gradient: linear-gradient(var(--gradient-direction), rgb(var(--gradient-primary)), rgb(var(--gradient-secondary)));
+    --gradient-20: linear-gradient(var(--gradient-direction), rgb(var(--gradient-primary), 0.2), rgb(var(--gradient-secondary), 0.2));
+    --gradient-50: linear-gradient(var(--gradient-direction), rgb(var(--gradient-primary), 0.5), rgb(var(--gradient-secondary), 0.5));
+    --gradient-90: linear-gradient(var(--gradient-direction), rgb(var(--gradient-primary), 0.9), rgb(var(--gradient-secondary), 0.9));
+    --gradient-direction: 320deg;
+}
+#app-mount .botTagInvert-18-95s {
+    color: rgb(var(--gradient-primary));
+}
+::-moz-selection {
+    background: rgb(var(--gradient-primary));
+    color: var(--text-normal);
+}
+::selection {
+    background: rgb(var(--gradient-primary));
+    color: var(--text-normal);
+}
+#app-mount .lookLink-9FtZy-.colorBrand-3pXr91 {
+    color: rgb(var(--gradient-primary));
+    opacity: 1;
+}
+#app-mount .item_b7fb7e[style*="rgb(114, 137, 218)"] polyline, #app-mount .item_b7fb7e[aria-checked=true] polyline {
+    stroke: rgb(var(--gradient-primary));
+}
+#app-mount .checkboxElement-uwAa9F:checked + span {
+    border-color: rgb(var(--gradient-primary));
+    background: rgb(var(--gradient-primary));
+}
+#app-mount .checkbox-3s5GYZ {
+    color: rgb(var(--gradient-primary));
+}
+#app-mount .guilds__2b93a [class*=circleIconButton] {
+    background: var(--foreground);
+    color: rgb(var(--gradient-primary));
+}
+#app-mount .containerUserOver__8b873::after {
+    background: var(--gradient-20);
+    border: 2px solid rgb(var(--gradient-primary));
+}
+#app-mount .member_aa4760.selected__9800b .botTagRegular_c89c9a {
+    background: var(--text-normal);
+    color: rgb(var(--gradient-primary));
+    margin-top: 0;
+}
+#app-mount .button-F9qN4n.focused-3ZzkKr {
+    background: var(--foreground-double);
+    box-shadow: 0 0 0 2px rgb(var(--gradient-primary));
+}
+  #app-mount .drawerSizingWrapper-27qFHb .focused-q9B2e4::after,
+  #app-mount .drawerSizingWrapper-27qFHb .result-3OpoO7:hover::after {
+    box-shadow: inset 0 0 0 2px rgb(var(--gradient-primary));
+}
+
+
+/* SERVER LIST - BRIGHTNESS */
+#app-mount .guilds__2b93a .scrollerBase__2b744 {
+    background-color: rgb(0, 0, 0, var(--serverlist-brightness));
+}
+html.platform-osx .macButtons-2MuSAC {
+    position: absolute;
+    top: var(--window-padding);
+    left: var(--window-padding);
+    background: rgb(0, 0, 0, var(--serverlist-brightness));
+    width: 72px;
+    border-top-left-radius: var(--window-roundness);
+}
+
+
+/* CHANNEL LIST - BRIGHTNESS */
+#app-mount .sidebar_ded4b5 {
+    border-radius: 0;
+    background: rgb(0, 0, 0, var(--left-brightness));
+}
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .sidebarRegionScroller__1fa7e {
+    background-color: rgb(0, 0, 0, var(--left-brightness));
+}
+
+
+/* CHAT ETC. - BRIGHTNESS */
+#app-mount .contentRegion__0bec1 {
+    background: rgb(0, 0, 0, var(--middle-brightness));
+}
+#app-mount .chat__52833 {
+    background: rgb(0, 0, 0, var(--middle-brightness));
+}
+#app-mount .container_def45c {
+    background: rgb(0, 0, 0, var(--middle-brightness));
+}
+#app-mount .container-36u7Lw {
+    background: rgb(0, 0, 0, var(--middle-brightness));
+}
+#app-mount .content__4bf10 .pageWrapper_fef757 {
+    background: rgb(0, 0, 0, var(--middle-brightness));
+}
+#app-mount .container__5c7e7 {
+    background: rgb(0, 0, 0, var(--middle-brightness));
+}
+#app-mount .perksModal-fSYqOq {
+    background-color: rgb(0, 0, 0, var(--middle-brightness));
+    background-image: none;
+    margin: var(--window-padding);
+    border-radius: var(--window-roundness);
+}
+#app-mount .applicationStore_fc7d76 {
+    background: rgb(0, 0, 0, var(--middle-brightness));
+}
+
+
+/* OVERLAY - BRIGHTNESS  */
+#app-mount .popout_a6e77f::before {
+    content: "";
+    background: linear-gradient(var(--tint), var(--tint)), var(--fb-overlay-image);
+    background-position: var(--fb-overlay-position, center);
+    background-size: var(--fb-overlay-size, cover);
+    background-attachment: var(--fb-overlay-attachment, fixed);
+    background-repeat: var(--fb-overlay-repeat, no-repeat);
+    box-shadow: inset 0 0 0 100vmax rgb(0, 0, 0, var(--overlay-brightness, var(--popout-modal-brightness)));
+    height: calc(100% + var(--fb-overlay-blur) * 5);
+    width: calc(100% + var(--fb-overlay-blur) * 5);
+    top: calc(var(--fb-overlay-blur) / -1 * 2.5);
+    left: calc(var(--fb-overlay-blur) / -1 * 2.5);
+    position: absolute;
+    filter: blur(var(--fb-overlay-blur));
+    transform: translate(var(--fb-overlay-blur)/-1, calc(var(--fb-overlay-blur) / -1));
+    pointer-events: none;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+            user-select: none;
+    z-index: -1;
+}
+#app-mount .popout_a6e77f {
+    -webkit-backdrop-filter: blur(var(--overlay-blur, 5px));
+            backdrop-filter: blur(var(--overlay-blur, 5px));
+    background: rgb(0 0 0/var(--overlay-brightness));
+}
+#app-mount .userPopoutOuter_d739b2::before {
+    content: "";
+    background: linear-gradient(var(--tint), var(--tint)), var(--fb-popout-image);
+    background-position: var(--fb-popout-position, center);
+    background-size: var(--fb-popout-size, cover);
+    background-attachment: var(--fb-popout-attachment, revert);
+    background-repeat: var(--fb-popout-repeat, no-repeat);
+    box-shadow: inset 0 0 0 100vmax rgb(0, 0, 0, var(--overlay-brightness));
+    height: calc(100% + var(--fb-popout-blur) * 5);
+    width: calc(100% + var(--fb-popout-blur) * 5);
+    top: calc(var(--fb-popout-blur) / -1 * 2.5);
+    left: calc(var(--fb-popout-blur) / -1 * 2.5);
+    position: absolute;
+    filter: blur(var(--fb-popout-blur));
+    transform: translate(var(--fb-popout-blur)/-1, calc(var(--fb-popout-blur) / -1));
+    pointer-events: none;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+            user-select: none;
+    z-index: -1;
+}
+
+
+/* SCROLL - BRIGHTNESS */
+::-webkit-scrollbar-thumb {
+    border-radius: 10px !important;
+    border: none !important;
+    background-clip: content-box !important;
+    background: var(--scrollbar-colour) !important;
+}
+
+
+/* LINKS - COLOUR */
+:root {
+    --link-colour: #9470A6;
+}
+.theme-dark {
+    --text-link: var(--link-colour);
+}
+
+
+/* POPOUTS */
+:root {
+    --popout-image: var(--background-image);
+    --popout-image-blur: 5px;
+    --popout-image-size: cover;
+    --popout-image-position: center;
+}
+:root {
+    --fb-popout-image: var(--popout-modal-image, var(--popout-image));
+    --fb-popout-blur: var(--popout-modal-blur, var(--popout-image-blur));
+    --fb-popout-size: var(--popout-modal-size, var(--popout-image-size));
+    --fb-popout-position: var(--popout-modal-position, var(--popout-image-position));
+    --fb-popout-repeat: var(--popout-modal-repeat, var(--popout-image-repeat));
+    --overlay-image: var(--background-image);
+    --overlay-image-blur: 5px;
+    --overlay-image-size: cover;
+    --overlay-image-position: center;
+}
+#app-mount .container_d27846 {
+    background: var(--background-secondary);
+    -webkit-backdrop-filter: blur(var(--overlay-image-blur));
+            backdrop-filter: blur(var(--overlay-image-blur));
+}
+#app-mount .container-3kfp0r {
+    background: var(--background-secondary);
+    -webkit-backdrop-filter: blur(var(--overlay-image-blur));
+            backdrop-filter: blur(var(--overlay-image-blur));
+}
