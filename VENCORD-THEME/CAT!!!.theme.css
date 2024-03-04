@@ -269,7 +269,9 @@ html.platform-osx .macButtons-2MuSAC {
             backdrop-filter: blur(var(--overlay-image-blur));
 }
 
+
 /* SPOTI PLUGIN VENCORD */
+/* https://github.com/Vendicated/Vencord/tree/main/src/plugins/spotifyControls */
 .theme-dark #vc-spotify-player {
     background: transparent;
 }
