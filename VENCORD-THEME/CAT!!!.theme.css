@@ -270,6 +270,6 @@ html.platform-osx .macButtons-2MuSAC {
 }
 
 /* SPOTI PLUGIN VENCORD */
-#vc-spotify-player {
-    background-color: #00000000;
+.theme-dark #vc-spotify-player {
+    background: transparent;
 }
