@@ -268,3 +268,8 @@ html.platform-osx .macButtons-2MuSAC {
     -webkit-backdrop-filter: blur(var(--overlay-image-blur));
             backdrop-filter: blur(var(--overlay-image-blur));
 }
+
+/* SPOTI PLUGIN VENCORD */
+#vc-spotify-player {
+    background-color: #00000000;
+}
