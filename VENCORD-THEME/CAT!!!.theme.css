@@ -112,8 +112,8 @@
     background: var(--foreground-double);
     box-shadow: 0 0 0 2px rgb(var(--gradient-primary));
 }
-  #app-mount .drawerSizingWrapper-27qFHb .focused-q9B2e4::after,
-  #app-mount .drawerSizingWrapper-27qFHb .result-3OpoO7:hover::after {
+#app-mount .drawerSizingWrapper-27qFHb .focused-q9B2e4::after,
+#app-mount .drawerSizingWrapper-27qFHb .result-3OpoO7:hover::after {
     box-shadow: inset 0 0 0 2px rgb(var(--gradient-primary));
 }
 
@@ -229,6 +229,13 @@ html.platform-osx .macButtons-2MuSAC {
     background-clip: content-box !important;
     background: var(--scrollbar-colour) !important;
 }
+.scroller__1f96e::-webkit-scrollbar {
+    display: none!important;
+}
+/*
+*::-webkit-scrollbar {
+    display: none!important;
+} */
 
 
 /* LINKS - COLOUR */
