@@ -229,6 +229,13 @@ html.platform-osx .macButtons-2MuSAC {
     background-clip: content-box !important;
     background: var(--scrollbar-colour) !important;
 }
+.scroller__1f96e::-webkit-scrollbar {
+    display: none!important;
+}
+/*
+*::-webkit-scrollbar {
+    display: none!important;
+} */
 
 
 /* LINKS - COLOUR */
