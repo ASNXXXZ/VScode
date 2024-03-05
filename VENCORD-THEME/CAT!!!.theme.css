@@ -188,10 +188,6 @@ html.platform-osx .macButtons-2MuSAC {
     position: absolute;
     filter: blur(var(--fb-overlay-blur));
     transform: translate(var(--fb-overlay-blur)/-1, calc(var(--fb-overlay-blur) / -1));
-    pointer-events: none;
-    -webkit-user-select: none;
-       -moz-user-select: none;
-            user-select: none;
     z-index: -1;
 }
 #app-mount .popout_a6e77f {
