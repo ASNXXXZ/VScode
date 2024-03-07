@@ -1,0 +1,26 @@
+/*
+* @name SXNZ
+* @author ASNXXXZ.
+* @description SXNZ THEME FOR BETTER DISCORD/VENCORD.
+* @version 1.0
+*/
+
+
+
+html #app-mount .guilds-2JjMmN [class*=expandedFolderBackground] {
+    left: 50%;
+    translate: 0;
+}
+html #app-mount .guilds-2JjMmN [class*=pill] {
+    left: calc(var(--server-container) / 2 - var(--server-icon-size) + 4px);
+    top: calc(var(--server-size) / -1 + var(--server-size) / 2 + 8px) !important;
+}
+html #app-mount .guilds-2JjMmN [class*=pill] span {
+    border-radius: var(--rounded-high) !important;
+}
+html #app-mount .guilds-2JjMmN .wrapper-z5ab_q {
+    height: var(--server-icon-size) !important;
+}
+html #app-mount .content-1SgpWY {
+    width: 100%;
+}
