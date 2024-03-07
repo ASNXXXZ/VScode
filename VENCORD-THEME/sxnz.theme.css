@@ -27,3 +27,9 @@ html #app-mount .guilds-2JjMmN .wrapper-z5ab_q {
 html #app-mount .content-1SgpWY {
     width: 100%;
 }
+
+
+#folder-items-2021905076 > div:nth-child(1) > div:nth-child(2) > div > div > svg > foreignObject > div {
+    width: 50%;
+    height: 50%;
+}
