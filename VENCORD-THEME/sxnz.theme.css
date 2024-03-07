@@ -9,7 +9,7 @@
 @import url('https://raw.githubusercontent.com/ASNXXXZ/VScode/main/VENCORD-THEME/HORIZONTALSERVERLIST.css');
 
 
-
+/* SERVERLIST */
 html #app-mount .guilds-2JjMmN [class*=expandedFolderBackground] {
     left: 50%;
     translate: 0;
