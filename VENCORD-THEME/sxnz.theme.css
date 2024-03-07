@@ -10,6 +10,11 @@
 
 
 /* SERVERLIST */
+#app-mount .guilds__2b93a [class*=expandedFolderBackground] {
+    border-radius: 30px;
+    height: 100%;
+}
+
 html #app-mount .guilds-2JjMmN [class*=expandedFolderBackground] {
     left: 50%;
     translate: 0;
@@ -26,10 +31,4 @@ html #app-mount .guilds-2JjMmN .wrapper-z5ab_q {
 }
 html #app-mount .content-1SgpWY {
     width: 100%;
-}
-
-
-#folder-items-2021905076 > div:nth-child(1) > div:nth-child(2) > div > div > svg > foreignObject > div {
-    width: 50%;
-    height: 50%;
 }
